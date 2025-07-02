@@ -10,3 +10,6 @@ async def root():
 @app.get("/cursos")
 async def cursos():
     return {"cursos": ["Programacion", "Ingenieria", "Matematicas"]}
+
+#iniciar servidor: uvicorn main:app --reload
+#detener servidor: CTRL+C
