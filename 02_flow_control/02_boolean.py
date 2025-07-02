@@ -27,3 +27,9 @@ print("False or False:", False or False)
 #comparación de strings lexicográficas
 print("operadores de comparación de strings")
 print("manzana" > "pera")
+
+
+#operador ternairo
+
+edad = 17
+print("Eres mayor de edad" if edad >= 18 else "es menor de edad")
